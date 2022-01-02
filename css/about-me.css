@@ -1,0 +1,36 @@
+.about-me {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 150px;
+}
+
+.about-me__box {
+  width: 28%;
+  padding: 50px 30px;
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: mistyrose; */
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.about-me__photo {
+  margin-bottom: 30px;
+}
+
+.about-me__photo img {
+  width: 75px;
+}
+
+.about-me__title {
+  font-size: 1.4em;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.about-me__text span {
+  line-height: 1.4em;
+  text-indent: 10px;
+  display: block;
+}

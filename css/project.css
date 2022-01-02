@@ -1,0 +1,109 @@
+.programming,
+.data-analysis,
+.design-service {
+  margin-bottom: 150px;
+}
+
+.project__main-title,
+.stack__main-title {
+  font-size: 1.5em;
+  font-weight: 600;
+  margin-bottom: 50px;
+  display: block;
+}
+
+.project__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.project__box {
+  width: 47%;
+  height: 550px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px; */
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 20px;
+  margin-bottom: 60px;
+  box-sizing: border-box;
+  transition: transform 0.3s ease-in-out;
+}
+
+.project__box:hover {
+  transform: scale(1.02, 1.02);
+}
+
+.project__photo {
+  width: 410px;
+  height: 250px;
+  object-fit: cover;
+  /* object-position: 50% -100px; */
+  display: block;
+  margin: 0px auto;
+  margin-bottom: 35px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+}
+
+.project__info {
+  padding: 0px 20px;
+  height: 50%;
+  box-sizing: border-box;
+}
+
+.project__title {
+  font-size: 1.5em;
+  font-weight: 700;
+  margin-bottom: 20px;
+  border-bottom: 4px solid rgba(0, 0, 0, 0.2);
+  padding-bottom: 10px;
+  display: inline-block;
+}
+
+.project__text {
+  line-height: 1.4em;
+  list-style: disc;
+  width: 90%;
+  height: 105px;
+  padding-left: 20px;
+}
+
+/* -------- language icon ----------*/
+
+.project__lang {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.project__lang-icon,
+.stack__lang-icon,
+.program__icon {
+  width: 40px;
+  height: 40px;
+  /* background-color: #eff1f3; */
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  /* box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.project__lang-icon img,
+.stack__lang-icon img,
+.program__icon img {
+  width: 23px;
+  height: 23px;
+}
+
+/* ----------- Data analysis project------------- */
+.data-analysis .project__box:last-child li:nth-child(2),
+.data-analysis .project__box:last-child li:nth-child(3),
+.data-analysis .project__box:last-child li:nth-child(4) {
+  list-style: decimal;
+}

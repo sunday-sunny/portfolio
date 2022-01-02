@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>✨Best-Sunny Portfolio</title>
+</head>
+
+<body>
+
+    <div id="content">
+
+        <!-- main -->
+        <div class="profile">
+            <img src="./images/its-me.jpg" class="profile__photo">
+            <div class="profile__info">
+                <div class="profile__info-header">
+                    <h1>안녕하세요.</h1>
+                    <h1>즐거운 개발자 최선희입니다!</h1>
+                </div>
+                <div class="profile__info-intro">
+                    <span>음악과 커피와 고양이를 좋아하는 개발자입니다.</span>
+                    <span>삶과 일의 균형을 잡으며 즐겁게 살기 위해 노력하고 있습니다.💻🎸🍰</span>
+                </div>
+                <ul class="profile__info-evn">
+                    <li>Java, TypeScript등 정적 타입 언어를 선호합니다.</li>
+                    <li>효율적으로 협업 할 수 있는 Cloud 환경을 좋아합니다.</li>
+                    <li>기억을 위한 기록을 합니다. 후일을 위한 꼼꼼한 문서 기록을 좋아합니다.</li>
+                </ul>
+
+                <!-- link -->
+                <div class="profile__link">    
+                    <div class="profile__link-one heart">
+                        <input type="checkbox" name="" id="heartbtn">
+                        <label for="heartbtn">
+                            <i class="fas fa-heart mini-heart"></i>
+                            <span><i class="fas fa-heart"></i></span>
+                            <div class="profile__link-name">Click!</div>
+                        </label>
+                    </div>
+
+                    <div class="profile__link-one tmi">
+                        <input type="checkbox" name="" id="tmibtn">
+                        <label for="tmibtn">
+                            <i class="fas fa-heart mini-heart"></i>
+                            <span><i class="fas fa-check"></i></span>
+                            <div class="profile__link-name">TMI?</div>
+                        </label>
+                        <div class="tmi-box">
+                            <ul class="tmi-box__list">
+                                <li>Birthday : 1995. 12. 22</li>
+                                <li>MBTI : INTJ</li>
+                                <li>짬뽕(*밥*), 부먹, 물냉(에 다대기), 쌀떡, 반민초단</li>
+                                <li>올해도 감사한 사람들과 행복하게 만나고 기억하기</li>
+                                <li>내 속도로 천천히, 즐겁게 살기</li>
+                                <li>더 많이 기록하기</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="profile__link-one email">
+                        <span><i class="far fa-envelope"></i></span>
+                        <div class="profile__link-name">22mallox@gmail.com</div>
+                    </div>
+                    <div class="profile__link-one github">
+                        <a href="https://github.com/sunday-sunny" target="_blank">
+                            <span><i class="fab fa-github"></i></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- About me -->
+        <div class="title">About me</div>
+        <div class="about-me">
+            <div class="about-me__box">
+                <div class="about-me__photo">
+                    <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/285/laptop_1f4bb.png">
+                </div>
+                <span class="about-me__title">My Major</span>
+                <p class="about-me__text">
+                    <span>비즈니스·프로그래밍·정보디자인을 배우는 정보융합학과와 컴퓨터소프트웨어학부 복수전공을 하였습니다.</span>
+                    <span>디자인과 프로그래밍 사이에서 원활히 소통하며 더 나은 해답을 찾아낼 수 있을 것이라 생각합니다.</span>
+                </p>
+            </div>
+            <div class="about-me__box">
+                <div class="about-me__photo">
+                    <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/285/memo_1f4dd.png">
+                </div>
+                <span class="about-me__title">기억을 위한 기록</span>
+                <p class="about-me__text">
+                    <span>미래의 저와 누군가를 위해 기록해놓는 걸 좋아합니다. (투머치한 인간이라 말이 많기도 합니다.)</span>
+                    <span>어떻게 기록하는게 좋은 것인지 항상 고민합니다. 노션은 제가 제일 좋아하는 어플리케이션이기도 합니다.</span>
+                </p>
+            </div>
+            <div class="about-me__box">
+                <div class="about-me__photo">
+                    <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/285/guitar_1f3b8.png">
+                </div>
+                <span class="about-me__title">Rock & Roll</span>
+                <p class="about-me__text">
+                    <span>음악을 정말 좋아합니다. 여러 사람들과 함께 해야하고, 정답이 없다는 점에서 음악과 프로그래밍은 비슷한 점이 많은 듯 합니다.</span>
+                    <span>다년간 음악 동아리 활동을 했으며 일렉 베이스와 드럼을 칠 수 있습니다. 언젠가 해외 페스티벌을 돌아다니는게 꿈입니다.<span>
+                </p>
+            </div>
+        </div>
+
+
+        <!-- Stack -->
+        <div class="title">Stack Skills</div>
+        <div class="stack">
+
+            <!-- Language -->
+            <div class="stack-language">
+                <span class="stack__main-title">Language</span>
+
+                <div class="stack__list">
+
+                    <!-- Java -->
+                    <div class="stack__box">
+                        <div class="stack__lang">
+                            <div class="stack__lang-icon">
+                                <img src="./images/java.svg" alt="java">
+                            </div>
+                            <div class="stack__lang-info">
+                                <span>Java</span>
+                                <div class="stack__lang-point">
+                                    <div class="dot"></div>
+                                    <div class="dot"></div>
+                                    <div class="dot"></div>
+                                    <div class="dot"></div>
+                                    <div class="dot dot-x"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="stack__text">
+                            <ul>
+                                <li>재학생 시절 초수강 때 기말고사로 19점을 맞고 C+을 받았습니다. 엄청난 충격을 받고 프로그래밍 공부는 펜으로 하는게 아니라는 걸 깨달았습니다! 재수강으로 A를 받고, 지금은 코딩테스트도 자바로 하고 있습니다.
+                                <li>람다식은 아직 익숙하지 않아 사용해보려고 노력하고 있습니다.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- HTML -->
+                    <div class="stack__box">
+                        <div class="stack__lang">
+                            <div class="stack__lang-icon">
+                                <img src="./images/html.svg" alt="html">
+                            </div>
+                            <div class="stack__lang-info">
+                                <span>HTML</span>
+                                <div class="stack__lang-point">
+                                    <div class="dot"></div>
+                                    <div class="dot"></div>
+                                    <div class="dot"></div>
+                                    <div class="dot"></div>
+                                    <div class="dot dot-x"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="stack__text">
+                            <ul>
+                                <li>어떻게 페이지를 설계하면 좋을지 고민합니다. (div 지옥에 빠지곤 합니다..)</li>
+                                <li>잘 안 풀리면 종이에 그리면서 구성을 그려봅니다.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- CSS -->
+                    <div class="stack__box">
+                        <div class="stack__lang">
+                            <div class="stack__lang-icon">
+                                <img src="./images/css.svg" alt="css">
+                            </div>
+                            <div class="stack__lang-info">
+                                <span>CSS</span>
+                                <div class="stack__lang-point">
+                                    <div class="dot"></div>
+                                    <div class="dot"></div>
+                                    <div class="dot"></div>
+                                    <div class="dot"></div>
+                                    <div class="dot dot-x"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="stack__text">
+                            <ul>
+                                <li>BEM 명명법을 선호합니다. 어떻게 클래스명을 짓고 모듈화를 해야할지가 최대 고민입니다.</li>
+                                <li>과거 Sass를 조금 다뤄봤으나 다시 공부할 예정입니다.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- JS -->
+                    <div class="stack__box">
+                        <div class="stack__lang">
+                            <div class="stack__lang-icon">
+                                <img src="./images/javascript.svg" alt="java-script">
+                            </div>
+                            <div class="stack__lang-info">
+                                <span>Java Script</span>
+                                <div class="stack__lang-point">
+                                    <div class="dot"></div>
+                                    <div class="dot"></div>
+                                    <div class="dot dot-x"></div>
+                                    <div class="dot dot-x"></div>
+                                    <div class="dot dot-x"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="stack__text">
+                            <ul>
+                                <li>개인적으로 java script보다 type script를 더 선호합니다.</li>
+                                <li>변수 타입을 지정하지 않는 동적 타입 언어는 유연하지만 오류를 너무 많이 발생시키고 혼란을 야기한다 생각합니다.</li>
+                                <li>java script 기초를 다지고 type script를 공부할 예정입니다.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- React -->
+                    <div class="stack__box">
+                        <div class="stack__lang">
+                            <div class="stack__lang-icon">
+                                <img src="./images/react.svg" alt="react">
+                            </div>
+                            <div class="stack__lang-info">
+                                <span>React</span>
+                                <div class="stack__lang-point">
+                                    <div class="dot"></div>
+                                    <div class="dot dot-x"></div>
+                                    <div class="dot dot-x"></div>
+                                    <div class="dot dot-x"></div>
+                                    <div class="dot dot-x"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="stack__text">
+                            <ul>
+                                <li>과거 React와 영화API를 이용한 무비 페이지를 만든적 있습니다.</li>
+                                <li>지금은 많이 잊어 다시 공부할 예정입니다.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Oracle -->
+                    <div class="stack__box">
+                        <div class="stack__lang">
+                            <div class="stack__lang-icon">
+                                <img src="./images/database.svg" alt="oracle">
+                            </div>
+                            <div class="stack__lang-info">
+                                <span>Oracle</span>
+                                <div class="stack__lang-point">
+                                    <div class="dot"></div>
+                                    <div class="dot"></div>
+                                    <div class="dot"></div>
+                                    <div class="dot dot-x"></div>
+                                    <div class="dot dot-x"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="stack__text">
+                            <ul>
+                                <li>SQLDeveloper 프로그램을 사용하여 쿼리, 뷰, PL/SQL을 만들 수 있습니다.</li>
+                                <li>데이터베이스 자격증으로 SQLD, DAsP를 보유하고 있습니다.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Git -->
+                    <div class="stack__box">
+                        <div class="stack__lang">
+                            <div class="stack__lang-icon">
+                                <img src="./images/git.svg" alt="git">
+                            </div>
+                            <div class="stack__lang-icon">
+                                <span><i class="fab fa-github"></i></span>
+                            </div>
+                            <div class="stack__lang-info">
+                                <span>Git / GitHub</span>
+                                <div class="stack__lang-point">
+                                    <div class="dot"></div>
+                                    <div class="dot"></div>
+                                    <div class="dot"></div>
+                                    <div class="dot dot-x"></div>
+                                    <div class="dot dot-x"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="stack__text">
+                            <ul>
+                                <li>여전히 Git이 너무 어렵지만 익숙해지기 위해 공부 자료 백업 및 프로젝트 branch 생성/PR을 해보는 중입니다.</li>
+                                <li>GUI 프로그램으로 Github desktop을 종종 사용합니다.</li>
+                                <li>GitLab에 이슈를 등록하고 PR을 요청해본적 있습니다.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Program -->
+            <div class="stack-program">
+                <span class="stack__main-title">Program</span>
+
+                <!-- Program Level -->
+                <div class="program__main-box">
+                    <div class="program__level">
+                        <span>Prefer</span>
+                        <span>Intermediate</span>
+                        <span>Beginner</span>
+                    </div>
+
+                    <!-- Programming -->
+                    <div class="program__group">
+                        
+                        <div class="program__category program__programming">
+                            <div class="program__category-title">Programming</div>
+                            <div class="program__box">
+
+                                <div class="program__box-prefer">
+                                    <div class="program__one">
+                                        <div class="program__icon">
+                                            <img src="./images/vscode.svg" alt="vscode">
+                                        </div>
+                                        <div class="program__name">VSCode</div>
+                                    </div>
+                                </div>
+
+                                <div class="program__box-inter">
+                                    <div class="program__one">
+                                        <div class="program__icon">
+                                            <img src="https://brandslogos.com/wp-content/uploads/images/eclipse-logo-vector.svg" alt="eclipse">
+                                        </div>
+                                        <div class="program__name">eclipse</div>
+                                    </div>
+                                    
+                                    <div class="program__one">
+                                        <div class="program__icon">
+                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT8GqKq6gACkucafxB7pBmO_G8LWgGt312vPG3t-kolI43w1_ELfU9gtHLfzPIfg8WHQc&usqp=CAU" alt="sql-developer">
+                                        </div>
+                                        <div class="program__name">SQL developer</div>
+                                    </div>
+                                   
+                                    <div class="program__one">
+                                        <div class="program__icon">
+                                            <img src="./images/exerd.jpg" alt="ex-erd">
+                                        </div>
+                                        <div class="program__name">eXERD</div>
+                                    </div>
+                                </div>
+
+                                <div class="program__box-begin">
+                                    <div class="program__one">
+                                        <div class="program__icon">
+                                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/IntelliJ_IDEA_Icon.svg/640px-IntelliJ_IDEA_Icon.svg.png" alt="Intellij">
+                                        </div>
+                                        <div class="program__name">IntelliJ</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Design -->
+                        <div class="program__category program__design">
+                            <div class="program__category-title">Design</div>
+                            <div class="program__box">
+
+                                <div class="program__box-prefer">
+                                    <div class="program__one">
+                                        <div class="program__icon">
+                                            <img src="https://e1.pngegg.com/pngimages/855/164/png-clipart-adobe-suite-for-macos-stacks-adobe-xd-icon-thumbnail.png" alt="xd">
+                                        </div>
+                                        <div class="program__name">Adobe XD</div>
+                                    </div>
+                                </div>
+
+                                <div class="program__box-inter">
+                                    <div class="program__one">
+                                        <div class="program__icon">
+                                            <img src="https://e1.pngegg.com/pngimages/87/419/png-clipart-adobe-suite-for-macos-stacks-adobe-illustrator-icon.png" alt="ai">
+                                        </div>
+                                        <div class="program__name">Adobe Illustrator</div>
+                                    </div>
+                                    
+                                    <div class="program__one">
+                                        <div class="program__icon">
+                                            <img src="./images/oven.png" alt="oven">
+                                        </div>
+                                        <div class="program__name">Kakao Oven</div>
+                                    </div>
+                                </div>
+
+                                <div class="program__box-begin">
+                                    <!-- <div class="program__icon">
+                                        <img src="https://e1.pngegg.com/pngimages/755/405/png-clipart-adobe-suite-for-macos-stacks-adobe-shop-icon-thumbnail.png" alt="photoshop">
+                                    </div> -->
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                        <!-- Third Parth -->
+                        <div class="program__category program__etc">
+                            <div class="program__category-title">Third Party</div>
+                            <div class="program__box">
+                                
+                                <div class="program__box-prefer">
+                                    <div class="program__one">
+                                        <div class="program__icon">
+                                            <img src="http://assets.stickpng.com/images/5fb6d3336e2d460004a5e31f.png" alt="notion">
+                                            <div class="program__name">Notion</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="program__box-inter">
+                                    <div class="program__one">
+                                        <div class="program__icon">
+                                            <img src="https://staruml.io/image/staruml_logo.png" alt="staruml">
+                                        </div>
+                                        <div class="program__name">StarUML</div>
+                                    </div>
+                                    
+                                    <div class="program__one">
+                                        <div class="program__icon">
+                                            <img src="https://ceias.nau.edu/capstone/projects/CS/2020/Digitool-S20/images/github.png" alt="github-desktop">
+                                        </div>
+                                        <div class="program__name">Github Desktop</div>
+                                    </div>
+                                </div>
+
+                                <div class="program__box-begin">
+                                    <div class="program__one">
+                                        <div class="program__icon">
+                                            <img src="https://a.slack-edge.com/80588/marketing/img/icons/icon_slack_hash_colored.png" alt="slack">
+                                        </div>
+                                        <div class="program__name">Slack</div>
+                                    </div>
+                                    
+                                    <div class="program__one">
+                                        <div class="program__icon">
+                                            <img src="https://res.cloudinary.com/postman/image/upload/t_team_logo/v1629869194/team/2893aede23f01bfcbd2319326bc96a6ed0524eba759745ed6d73405a3a8b67a8" alt="postman">
+                                        </div>
+                                        <div class="program__name">Postman</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- Project -->
+        <div class="title">Project</div>
+        <div class="project">
+
+            <!-- Programming project -->
+            <div class="programming">
+                <span class="project__main-title">Programming Project</span>
+
+                <div class="project__list">
+
+                    <!-- #1 project -->
+                    <div class="project__box">
+                        <a href="https://github.com/sunday-sunny/DragonLand" target="_blank">
+                            <img src="https://user-images.githubusercontent.com/42857790/144842968-3a0e165e-3f6b-4c12-b1d6-6d11ba0c9c06.png" class="project__photo">
+                            <div class="project__info">
+                                <div class="project__title">용용랜드</div>
+                                <ul class="project__text">
+                                    <li>자바 콘솔 기반 놀이공원 통합 관리 시스템입니다.</li>
+                                    <li>통합/회원/관리자 계정별 CRUD 기능을 제공합니다.</li>
+                                </ul>
+                                <div class="project__lang">
+                                    <div class="project__lang-icon">
+                                        <img src="./images/java.svg" alt="java">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- #2 project -->
+                    <div class="project__box">
+                        <a href="https://github.com/sunday-sunny/Education_Center_Database" target="_blank">
+                            <img src="https://user-images.githubusercontent.com/42857790/145359778-b694b7ea-7d5e-4977-b894-fd9b4376b669.PNG" class="project__photo">
+                            <div class="project__info">
+                                <div class="project__title">교육 센터 데이터베이스 설계</div>
+                                <ul class="project__text">
+                                    <li>오라클을 이용한 교육센터 운영 프로그램 데이터베이스 구축 프로젝트입니다.</li>
+                                    <li>관리자/교사/교육생 계정 별 요구사항에 맞는 뷰와 맞춤 데이터 제공합니다.</li>
+                                </ul>
+                                <div class="project__lang">
+                                    <div class="project__lang-icon">
+                                        <img src="./images/database.svg" alt="sql">
+                                    </div>
+                                    <div class="project__lang-icon">
+                                        <img src="https://www.infolob.com/wp-content/uploads/2020/12/ATP.png" alt="oracle-cloud">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- #3 project -->
+                    <div class="project__box">
+                        <a href="https://sunday-sunny.github.io/Kakao_clone_custom/" target="_blank">
+                            <img src="https://user-images.githubusercontent.com/42857790/146737561-8b299247-14cf-4931-b924-19309ceccdc8.JPG" class="project__photo">
+                            <div class="project__info">
+                                <div class="project__title">카카오톡 클론</div>
+                                <ul class="project__text">
+                                    <li>Github Desktop 홈페이지 테마로 커스터마이징한 카카오톡 클론 프로젝트입니다.</li>
+                                    <li>HTML, CSS를 사용하여 페이지를 구현하였습니다.</li>
+                                </ul>
+                                <div class="project__lang">
+                                    <div class="project__lang-icon">
+                                        <img src="./images/html.svg" alt="html">
+                                    </div>
+                                    <div class="project__lang-icon">
+                                        <img src="./images/css.svg" alt="css">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- #4 project -->
+                    <div class="project__box">
+                        <a href="https://sunday-sunny.github.io/react_movie_custom/" target="_blank">
+                            <img src="https://github.com/sunday-sunny/react_movie_custom/raw/master/2020-05-26-23-12-11.png" class="project__photo">
+                            <div class="project__info">
+                                <div class="project__title">React Movie App</div>
+                                <ul class="project__text">
+                                    <li>React를 이용해 만든 일일 박스오피스 10편을 보여주는 무비 페이지입니다.</li>
+                                    <li>한국진흥위원회 API와 TMDB API를 사용하였습니다.</li>
+                                </ul>
+                                <div class="project__lang">
+                                    <div class="project__lang-icon">
+                                        <img src="./images/html.svg" alt="html">
+                                    </div>
+                                    <div class="project__lang-icon">
+                                        <img src="./images/css.svg" alt="css">
+                                    </div>
+                                    <div class="project__lang-icon">
+                                        <img src="./images/javascript.svg" alt="java-script">
+                                    </div>
+                                    <div class="project__lang-icon">
+                                        <img src="./images/react.svg" alt="react">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Data analysis Project -->
+            <div class="data-analysis">
+                <span class="project__main-title">Data analysis Project</span>
+
+                <div class="project__list">
+
+                    <!-- #1 project -->
+                    <div class="project__box">
+                        <a href="https://github.com/sunday-sunny/where_is_my_aqua" target="_blank">
+                            <img src="./images/data-project-1.png" class="project__photo">
+                            <div class="project__info">
+                                <div class="project__title">아쿠아 돈까스는 언제 먹을 수 있을까?</div>
+                                <ul class="project__text">
+                                    <li>파이썬으로 학식 csv 파일을 분석한 프로젝트입니다.</li>
+                                    <li>인기 많은 아쿠아 돈까스가 학기별/달별/요일별 얼마나 나오는지 분석하였습니다.</li>
+                                </ul>
+                                <div class="project__lang">
+                                    <div class="project__lang-icon">
+                                        <img src="./images/python.svg" alt="python">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- #2 project -->
+                    <div class="project__box">
+                        <a href="#" target="">
+                            <img src="./images/data-project-2.png" class="project__photo">
+                            <div class="project__info">
+                                <div class="project__title">Kaggle 영화 데이터 분석</div>
+                                <ol start="0" class="project__text">
+                                    <li>데이터마이닝 수업 프로젝트로 진행한 영화 데이터 분석입니다.</li>
+                                    <!-- <li>kaggle의 영화 datasets를 이용해 jupyter notebook로 분석했습니다.</li> -->
+                                    <li>선형 회귀식을 이용한 인기 기반 수익 예측</li>
+                                    <li>장르별 줄거리를 이용한 Topic model</li>
+                                    <li>장르별 keywords를 이용한 Topic model</li>
+                                </ol>
+                                <div class="project__lang">
+                                    <div class="project__lang-icon">
+                                        <img src="./images/python.svg" alt="python">
+                                    </div>
+                                    <div class="project__lang-icon">
+                                        <img src="./images/jupyter.svg" alt="jupyter">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Informaton Design project -->
+            <div class="design-service">
+                <span class="project__main-title">Design&기획 Project</span>
+
+                <div class="project__list">
+
+                    <!-- #1 project -->
+                    <div class="project__box">
+                        <a href="https://xd.adobe.com/view/2fe47009-b8a5-4791-7e1a-2edecf08bf20-59d5/?fullscreen" target="_blank">
+                            <img src="./images/design-project-1.png" class="project__photo">
+                            <div class="project__info">
+                                <div class="project__title">보듬아이</div>
+                                <ul class="project__text">
+                                    <li>소프트웨어공학 수업 팀프로젝트로 진행한 영유아 원격 헬스케어 어플리케이션 분석/설계/기획입니다.</li>
+                                    <li>IoT 기술 기반 영유아 건강 상태 모니터링, 병원 예약, GPS 확인을 할 수 있는 기능을 기획했습니다. </li>
+                                    <li>프로젝트 제안서, 요구분석서, 유스케이스/액티비티 포함 6개 다이어그램, UI 작업</li>
+                                </ul>
+                                <div class="project__lang">
+                                    <div class="project__lang-icon">
+                                        <img src="https://staruml.io/image/staruml_logo.png" alt="staruml">
+                                    </div>
+                                    <div class="project__lang-icon">
+                                        <img src="https://e1.pngegg.com/pngimages/855/164/png-clipart-adobe-suite-for-macos-stacks-adobe-xd-icon-thumbnail.png" alt="xd">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- #2 project -->
+                    <div class="project__box">
+                        <a href="https://xd.adobe.com/view/bcf39740-0784-4a71-5d7a-7f506fc29532-cac2/?fullscreen" target="_blank">
+                            <img src="./images/design-project-2.png" class="project__photo">
+                            <div class="project__info">
+                                <div class="project__title">소담소담</div>
+                                <ul class="project__text">
+                                    <li>서비스UX디자인 수업 팀프로젝트로 진행한 소모임 서비스 기획입니다.</li>
+                                    <li>Customer Journey Map, 벤치마킹, 가치 추출, 마인드맵, 기능리스트, 플로우 맵, UI 작업</li>
+                                </ul>
+                                <div class="project__lang">
+                                    <div class="project__lang-icon">
+                                        <img src="https://e1.pngegg.com/pngimages/855/164/png-clipart-adobe-suite-for-macos-stacks-adobe-xd-icon-thumbnail.png" alt="xd">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- #3 project -->
+                    <div class="project__box">
+                        <a href="./images/design-project-3-full.png" target="_blank">
+                            <img src="./images/design-project-3.png" class="project__photo">
+                            <div class="project__info">
+                                <div class="project__title">One Pick!</div>
+                                <ul class="project__text">
+                                    <li>IT응용디자인 수업 팀프로젝트로 진행한 편의점 제품 분석&비교 어플리케이션 디자인 프로젝트입니다.</li>
+                                    <li>제품 별점 평가 및 바코드를 찍으면 제품을 비교해주는 기능을 기획, 디자인 했습니다.</li>
+                                </ul>
+                                <div class="project__lang">
+                                    <div class="project__lang-icon">
+                                        <img src="https://e1.pngegg.com/pngimages/87/419/png-clipart-adobe-suite-for-macos-stacks-adobe-illustrator-icon.png" alt="ai">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- #4 project -->
+                    <div class="project__box">
+                        <a href="./images/design-project-4-full.jpg" target="_blank">
+                            <img src="./images/design-project-4.png" class="project__photo">
+                            <div class="project__info">
+                                <div class="project__title">Memory Rail</div>
+                                <ul class="project__text">
+                                    <li>기차예매 어플 UX 개선 및 기획 프로젝트입니다.</li>
+                                    <li>여행지 추천, 여행 일기 및 히스토리, 노선 달성률 등의 기능을 기획, 디자인 했습니다.</li>
+                                    <li>AEIOU, SWOT, 벤치마킹, 인터뷰, 페르소나 분석, User flow, UI 작업 </li>
+                                </ul>
+                                <div class="project__lang">
+                                    <div class="project__lang-icon">
+                                        <img src="https://e1.pngegg.com/pngimages/87/419/png-clipart-adobe-suite-for-macos-stacks-adobe-illustrator-icon.png" alt="ai">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <footer>
+        <span>Copyright © 2021. sunday-sunny. All rights reserved.</span>
+    </footer>
+
+    <!-- Font Awesom Script -->
+    <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
