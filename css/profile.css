@@ -1,8 +1,9 @@
 .profile {
   display: flex;
-  margin: 150px 0px;
+  margin: 150px 0px 160px 0px;
   align-items: center;
   /* background-color: mistyrose; */
+  /* justify-content: center; */
 }
 
 .profile__photo {
@@ -90,7 +91,7 @@
 
 .tmi .profile__link-name {
   bottom: -33px;
-  left: 10px;
+  left: 12px;
 }
 
 .profile__link span:hover {
@@ -185,4 +186,38 @@ input[type="checkbox"] {
   line-height: 1.4em;
   text-align: start;
   list-style: disc;
+}
+
+/* ----- utterances comments ---- */
+.utterances {
+  width: 450px !important;
+  height: 260px;
+  position: absolute;
+  left: 70px;
+  top: 0;
+  opacity: 0;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 20px;
+  z-index: 1000;
+  background-color: white;
+}
+
+#commentbtn:checked ~ label > span {
+  background: linear-gradient(#bcecff, #c2bbff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#commentbtn:checked ~ .utterances {
+  animation: tmiBtn 0.5s ease-in-out forwards;
+}
+
+@keyframes commentBtn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(-5px);
+  }
 }
