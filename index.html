@@ -38,16 +38,15 @@
                         <label for="heartbtn">
                             <i class="fas fa-heart mini-heart"></i>
                             <span><i class="fas fa-heart"></i></span>
-                            <div class="profile__link-name">Click!</div>
+                            <!-- <div class="profile__link-name">Click!</div> -->
                         </label>
                     </div>
 
                     <div class="profile__link-one tmi">
                         <input type="checkbox" name="" id="tmibtn">
                         <label for="tmibtn">
-                            <i class="fas fa-heart mini-heart"></i>
                             <span><i class="fas fa-check"></i></span>
-                            <div class="profile__link-name">TMI?</div>
+                            <div class="profile__link-name">TMI</div>
                         </label>
                         <div class="tmi-box">
                             <ul class="tmi-box__list">
@@ -65,11 +64,30 @@
                         <span><i class="far fa-envelope"></i></span>
                         <div class="profile__link-name">22mallox@gmail.com</div>
                     </div>
+
                     <div class="profile__link-one github">
                         <a href="https://github.com/sunday-sunny" target="_blank">
                             <span><i class="fab fa-github"></i></span>
                         </a>
                     </div>
+
+                    <div class="profile__link-one comment">
+                        <input type="checkbox" name="" id="commentbtn">
+                        <label for="commentbtn">
+                            <span><i class="far fa-comment"></i></span>
+                        </label>
+                        <!-- utterance comments -->
+                        <script src="https://utteranc.es/client.js"
+                            repo="sunday-sunny/portfolio"
+                            issue-term="pathname"
+                            label="💬"
+                            theme="github-light"
+                            crossorigin="anonymous"
+                            async>
+                        </script>
+                    </div>
+
+
                 </div>
             </div>
         </div>
@@ -738,7 +756,16 @@
             </div>
         </div>
     </div>
-
+    
+    <!-- utterance comment -->
+    <!-- <script src="https://utteranc.es/client.js"
+        repo="sunday-sunny/portfolio"
+        issue-term="pathname"
+        label="💬"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+    </script> -->
 
     <!-- Footer -->
     <footer>
