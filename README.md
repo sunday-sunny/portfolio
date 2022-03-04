@@ -1,10 +1,10 @@
 #  ✨ Portfolio
-![image](https://user-images.githubusercontent.com/42857790/148370251-e676c6ce-0538-4479-b3dd-06cdde1ef473.png)
+![image](https://user-images.githubusercontent.com/42857790/156717027-f776e862-86e7-4c69-a7ce-d30334fd85f7.png)
 
 
 
-### Portfolio ver. 2022-01
-- `ver.2022-01` 첫번째 포트폴리오입니다.
+### Portfolio ver. 2022-03
+- `ver.2022-03` 첫번째 포트폴리오입니다.
 - 단일 페이지로 구성하였습니다. 깔끔하게 만들되 재미있고, 다양한 정보를 효과적으로 보여주려 했습니다.
 - 댓글을 달 수 있도록 [utterance](https://utteranc.es/) 를 적용했습니다. 포트폴리오에 대한 피드백이나 질문을 남겨주세요. 💌❣
 <br/>
@@ -48,7 +48,7 @@
 	- Language
 	- Program
 4. Project
-	- Programming (5개)
+	- Programming (7개)
 	- Data Analysis (2개)
 	- Design & 기획 (4개)
 <br/>
